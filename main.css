@@ -1,0 +1,45 @@
+.menu{
+    height: 3rem;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+  	position: fixed;
+    top: 0;
+    left: 0;
+}
+
+body{
+    background-color: #F58840;
+    text-align: center;
+}
+
+.input input{
+    width: 800px;
+    margin: 6rem 3rem 1rem 1rem;
+	padding: 20px 40px;
+    font-size: 15px;
+    size: 200px;
+    text-align: right;
+    border-radius: 12px;
+    border-color: black;
+    border-width: 3px;
+    background-color: #EADEDE;
+} 
+
+.flex{
+    display: flex;
+}
+
+.flex_col{
+    flex-direction: column;
+}
+
+.button{
+    border-radius: 25%;
+    background-color: #e5ae48;
+    margin: 25px;
+    width: 80px;
+    height: 55px;
+    font-size: 20px;
+    color: black;
+}
